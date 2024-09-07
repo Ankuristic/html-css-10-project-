@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color:  #ccc;
+}
+
+.containera{
+    background-color: aqua;
+    border: 2 px solid;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+
+
+}
+
+.apply_box {
+    max-width: 600 px;
+
+    padding:20px;
+    background-color: white;
+    margin:auto;
+    /* box-shadow: */
+}
