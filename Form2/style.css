@@ -27,6 +27,87 @@ body{
 
     padding:20px;
     background-color: white;
-    margin:auto;
+    margin: 0 auto;
     /* box-shadow: */
+    margin-top: 50px;
+    box-shadow: 4px 3px fpx rgba(red, green, blue, alpha);
+    border-radius: 10px;
+}
+
+.title_small{
+    font: size 20px;
+
+}
+
+.form_container{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    grid-gap:20px;
+
+
+}
+
+
+.form-control {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+label {
+    font-size:5px;
+    margin-bottom:5px;
+
+
+}
+
+
+input,select,textarea{
+    padding:6px 10px;
+    border:1px solid #ccc;
+    border-radius: 4x;
+    font-size:15px;
+}
+
+
+input-focus {
+    outline-color: red;
+}
+
+.button_container {
+    display:lex;
+    justify-content: flex-end;
+    margin-top:20px;
+
+}
+
+
+button {
+    background-color: red;
+    border:transparent solid 2px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color:white;
+
+}
+
+button:hover {
+    background-color: #ccc;
+    border:2px solid red;
+    color: black;
+    transition : 0.3s ease out;
+    cursor:pointer;
+}
+
+.textarea_control{
+    grid-column:1/span2
+}
+
+
+@media(max-wdth:460px){
+    .texarea_control{
+        grid-column: 1/span 1;
+    }
 }
